@@ -1,0 +1,17 @@
+
+
+first run:
+    mispelled one of the emoji names
+    
+seond run:
+    worked great
+    
+    
+   *********************************************************** 
+    
+Issue:
+    -globe emoji did not show (seeing words)
+    
+    
+Resolution:
+    -put the correct name for the emoji (csf)

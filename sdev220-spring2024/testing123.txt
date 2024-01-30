@@ -1,0 +1,3 @@
+I prefer this syntax
+ when writing files 
+	 in python
