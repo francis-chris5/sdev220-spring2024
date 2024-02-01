@@ -1,0 +1,16 @@
+
+
+typo on name for input method
+
+typo in an equation
+
+datetime is not subsceriptable (cast that as string)
+
+functions were in the wrong order (moved decorator function to top)
+
+
+...
+
+
+
+it runs now
