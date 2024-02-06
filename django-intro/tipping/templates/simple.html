@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> {{ title }} </title>
+</head>
+<body>
+
+
+	{% if message %}
+		<h1> {{ message }} </h1>
+	{% else %}
+		<p>this template didn't receive an expected message</p>
+	{% endif %}
+
+
+	<!--
+	
+	{% for element in list_key %}
+		<p>do stuff with this {{ element }}</p>
+	{% endfor %}
+
+	-->
+
+</body>
+</html>
