@@ -4,7 +4,18 @@ from django.http import HttpResponse
 # Create your views here.
 
 def homePage(request):
-	page = "<!DOCTYPE html><html><head></head>"
+	page = "<!DOCTYPE html><html><head>"
+	page += "<style>"
+	page += """html{
+	min-height: 100%;
+}
+
+body{
+	background-image: linear-gradient(14deg, #345678, #a3b4cc);
+	color: greenyellow;
+}"""
+	page += "</style>"
+	page += "</head>"
 	page += "<body>"
 	page += "<h3> Hello World!!! </h3>"
 	page += "<p>this is our first django example</p>"
